@@ -1,0 +1,119 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(223, 245, 245, 0.25);
+}
+.main_div {
+  display: flex;
+  margin: 5rem;
+  gap: 10rem;
+}
+.img_div {
+  width: 500px;
+  margin-top: 5rem;
+}
+.main_p {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  margin-left: 0.6rem;
+}
+.p_p {
+  font-size: 15px;
+  line-height: 25px;
+  color: hsla(0, 0%, 45%, 1);
+  margin-left: 0.6rem;
+}
+.form_div {
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 0 8px #669999;
+  width: 50%;
+  padding: 2rem;
+  line-height: 2rem;
+}
+input {
+  width: 12rem;
+  height: 2rem;
+  padding: 5px;
+  font-size: 10px;
+}
+.colums {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.colums div {
+  width: 48%;
+}
+select:required:invalid {
+  color: #666;
+  font-size: 10px;
+  width: 12rem;
+  height: 2rem;
+}
+input[type="password"]{
+  width: 433px;
+  margin-bottom: 3rem;
+}
+.item2 select {
+  width: 433px;
+  height: 2rem;
+}
+button {
+  background-color: hsla(174, 62%, 47%, 1);
+  border: none;
+  width: 433px;
+  height: 2rem;
+  font-weight: bold;
+  font-size: 12px;
+  color: #fff;
+}
+label {
+  font-weight: bold;
+  font-size: 12px;
+}
+.footer {
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+}
+span {
+  color: hsla(174, 62%, 47%, 1);
+}
+
+@media screen and (max-width: 767px) {
+  .main_div {
+    flex-direction: column;
+    margin: 2rem;
+    gap: 3rem;
+  }
+  .img_div{
+    width: 280px;
+    margin-top: 2rem;
+  }
+  .form_div {
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 0 0 8px #669999;
+    width: 100%;
+    padding: 2rem;
+    line-height: 2rem;
+  }
+  .colums{
+    flex-direction: column;
+  }
+  input[type="password"]{
+    width: 12rem;
+    margin-bottom: 3rem;
+  }
+  button{
+    width: 12rem;
+  }
+  
+  
+}
